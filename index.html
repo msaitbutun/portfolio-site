@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muhammed Sait Bütün — Cloud & DevOps</title>
+  <meta name="description" content="Muhammed Sait Bütün — Cloud & DevOps Intern | Terraform, Kubernetes, Docker, CI/CD" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/avatar.jpg" alt="Sait avatar" class="avatar" />
+        <div>
+          <h1>Muhammed Sait Bütün</h1>
+          <p class="muted">Cloud & DevOps Intern — Huawei Cloud (Stajyer)</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="themeToggle" aria-label="Tema değiştir">🌙</button>
+        <a class="btn" href="assets/resume.pdf" download>CV indir</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-grid">
+        <div>
+          <h2>Cloud & DevOps — Otomasyon, İzleme, Konteynerizasyon</h2>
+          <p>
+            Huawei Cloud staj tecrübesi ve AWS bilgisi ile altyapı otomasyonu, CI/CD ve
+            konteyner orkestrasyonunda pratik. Terraform, Kubernetes, Docker, Prometheus,
+            Grafana, ELK, Istio ve GitHub Actions / Jenkins üzerinde çalışmalar.
+          </p>
+
+          <div class="quick-links">
+            <a class="outline" href="#projects">Projeler</a>
+            <a class="outline" href="#skills">Yetenekler</a>
+            <a class="primary" href="mailto:btn.sait@gmail.com">btn.sait@gmail.com</a>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <h3>İletişim</h3>
+          <p>📞 +90 551 161 6612</p>
+          <p>📍 Kütahya</p>
+          <p>🎓 Bilgisayar Mühendisliği (2023–2027)</p>
+          <div class="cta-row">
+            <a class="btn" href="assets/resume.pdf" download>CV'yi indir</a>
+            <button id="copyEmail" class="btn hollow">E-postayı kopyala</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="panel">
+      <h3>Teknik Yetenekler</h3>
+      <div class="chips">
+        <span>Linux / Bash</span>
+        <span>Terraform</span>
+        <span>Kubernetes</span>
+        <span>Docker</span>
+        <span>Prometheus</span>
+        <span>Grafana</span>
+        <span>ELK</span>
+        <span>Istio</span>
+        <span>Jenkins</span>
+        <span>GitHub Actions</span>
+        <span>Huawei Cloud / AWS</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="panel">
+      <h3>Seçme Projeler & Senaryolar</h3>
+
+      <article class="project">
+        <h4>Kubernetes + Istio ile Canary Deployment (Örnek)</h4>
+        <p>Küçük mikroservis uygulaması için Istio tabanlı canary deployment pipeline — trafik yönetimi, izleme ve geri alma stratejileri.</p>
+        <ul>
+          <li>Teknolojiler: Kubernetes, Istio, Prometheus, Grafana</li>
+          <li>Roller: manifests, traffic routing, alerting</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <h4>Infrastructure-as-Code ile Çoklu Ortam (Terraform)</h4>
+        <p>Terraform modülleri ile staging/production ayrımı, state backend (S3/remote) ve CI üzerinde terraform plan/apply otomasyonu.</p>
+        <ul>
+          <li>Teknolojiler: Terraform, GitHub Actions, Huawei Cloud / AWS</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <h4>CI/CD Otomasyonu — Jenkins & GitHub Actions</h4>
+        <p>Docker image build → security scan → push → k8s deploy pipeline (prometheus alert tetiklemesi).</p>
+      </article>
+
+      <p class="muted small"></p>
+    </section>
+
+    <!-- TIMELINE / EXPERIENCE -->
+    <section id="experience" class="panel">
+      <h3>Deneyim</h3>
+      <div class="timeline">
+        <div class="titem">
+          <time>10 Tem 2025 - 21 Ağu 2025</time>
+          <div>
+            <strong>Huawei Cloud — Stajyer (AIE / CRE benzeri)</strong>
+            <p>Terraform, Kubernetes, Docker, monitoring, CI/CD çalışmalarına katkı.</p>
+          </div>
+        </div>
+        <!-- Ek deneyimler buraya -->
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="panel contact">
+      <h3>İletişim & İşbirliği</h3>
+      <p>İş teklifleri, proje iş birlikleri veya teknik görüşme talepleri için e-posta atın veya telefonla ulaşın.</p>
+      <div class="contact-grid">
+        <div>
+          <label>E-posta</label>
+          <input type="text" value="btn.sait@gmail.com" readonly />
+        </div>
+        <div>
+          <label>Telefon</label>
+          <input type="text" value="+90 551 161 6612" readonly />
+        </div>
+      </div>
+      <div class="foot-cta">
+        <a class="primary" href="mailto:btn.sait@gmail.com">E-posta Gönder</a>
+        <a class="outline" href="assets/resume.pdf" download>CV'yi İndir</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Muhammed Sait Bütün — Cloud & DevOps. </p>
+      <p class="muted small">Hazırlayan: Portföy (Minimal, profesyonel). CV referansı kullanıldı. :contentReference[oaicite:2]{index=2}</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
