@@ -1,7 +1,10 @@
+Anladım 👍 Aşağıdaki metni direkt `README.md` dosyana **kopyala-yapıştır** yapabilirsin. Başlıklar, açıklamalar ve kod blokları Markdown formatına uygun şekilde hazır:
+
+````markdown
 # 🌐 Portfolio Website
 
-Kendi kişisel portfolyo sitemi bu repository üzerinde barındırıyorum.  
-Bu proje ile yazılım geliştirme sürecimi, becerilerimi ve çalışmalarımı sergilemeyi hedefledim.  
+Kişisel portfolyo sitem bu repository üzerinde barındırılmaktadır.  
+Bu proje, yazılım geliştirme süreçlerimi, yetkinliklerimi ve örnek çalışmalarımı sergilemeyi amaçlar.
 
 ---
 
@@ -14,34 +17,64 @@ Bu proje ile yazılım geliştirme sürecimi, becerilerimi ve çalışmalarımı
 
 ---
 
-## 📦 Çalıştırma
+## 🚀 Hızlı Başlangıç (Yerelde)
 
 Projeyi yerelde çalıştırmak için:
 
 ```bash
+# Repository'yi klonla
 git clone https://github.com/<kullanıcı-adınız>/portfolio-site.git
 cd portfolio-site
+
+# Docker image oluştur
 docker build -t portfolio-site .
+
+# Container'ı çalıştır
 docker run -p 8080:80 portfolio-site
+````
+
+Tarayıcıdan `http://localhost:8080` adresine giderek siteyi görüntüleyebilirsiniz.
 
 ---
-Tarayıcıdan http://localhost:8080 adresine giderek görebilirsiniz.
 
-# 🔄 CI/CD Senaryosu
-Bu repo, Jenkins pipeline ile otomatik olarak build edilip DockerHub’a gönderilmektedir:
+## 🔄 CI/CD (Otomatik Süreç)
 
-GitHub’a push yapıldığında Jenkins tetiklenir
+Bu repo, GitHub’a yapılan push işlemleriyle Jenkins tarafından tetiklenen bir pipeline üzerinden otomatik olarak build edilir ve DockerHub’a push edilir.
 
-Jenkins yeni image oluşturur
+**Pipeline Akışı:**
 
-DockerHub’a push eder
+1. GitHub → Webhook ile Jenkins tetiklenir.
+2. Jenkins pipeline, `Jenkinsfile` kullanarak yeni Docker image oluşturur.
+3. Oluşan image DockerHub’a push edilir.
 
-# 📖 Detaylı Anlatım
-Projenin nasıl yapıldığını görmek ve süreci adım adım anlamak için Medium yazımı okuyabilirsiniz:
-👉 Medium Profilim
+---
 
-📬 İletişim
-Eğer proje ile ilgili sorularınız olursa bana ulaşabilirsiniz:
+## 📦 Registry
 
-LinkedIn: www.linkedin.com/in/muhammed-sai̇t-bütün
+* Docker image'lar, DockerHub üzerinde
+  **`<dockerhub-kullanıcı-adı>/<repo-adı>:<tag>`** formatında tutulur.
+* Jenkins tarafında DockerHub erişim bilgilerini (username/password veya access token) güvenli şekilde credential olarak tanımlayın.
 
+---
+
+## 📖 Kaynaklar & Yayın
+
+Projeyi ve pipeline sürecini adım adım anlattığım yazıyı Medium üzerinde bulabilirsiniz:
+👉 [Medium Profilim](medium-linkinizi-buraya-ekleyin)
+
+---
+
+## 📬 İletişim
+
+Her türlü soru ve iş birliği için bana ulaşabilirsiniz:
+
+* **LinkedIn:** [www.linkedin.com/in/muhammed-sai̇t-bütün](https://www.linkedin.com/in/muhammed-sai̇t-bütün)
+* **E-posta:** `<e-posta-adresiniz@ornek.com>`
+
+---
+
+```
+
+Bu haliyle hazır.  
+İstersen ben sana ek olarak **Jenkinsfile örneği** ya da **projenin ekran görüntüsü** bölümü de ekleyebilirim. Onları da README’ye koymak ister misin?
+```
