@@ -1,6 +1,3 @@
-Anladım 👍 Aşağıdaki metni direkt `README.md` dosyana **kopyala-yapıştır** yapabilirsin. Başlıklar, açıklamalar ve kod blokları Markdown formatına uygun şekilde hazır:
-
-````markdown
 # 🌐 Portfolio Website
 
 Kişisel portfolyo sitem bu repository üzerinde barındırılmaktadır.  
@@ -60,7 +57,7 @@ Bu repo, GitHub’a yapılan push işlemleriyle Jenkins tarafından tetiklenen b
 ## 📖 Kaynaklar & Yayın
 
 Projeyi ve pipeline sürecini adım adım anlattığım yazıyı Medium üzerinde bulabilirsiniz:
-👉 [Medium Profilim](medium-linkinizi-buraya-ekleyin)
+👉 https://medium.com/@btn.sait
 
 ---
 
@@ -69,7 +66,6 @@ Projeyi ve pipeline sürecini adım adım anlattığım yazıyı Medium üzerind
 Her türlü soru ve iş birliği için bana ulaşabilirsiniz:
 
 * **LinkedIn:** [www.linkedin.com/in/muhammed-sai̇t-bütün](https://www.linkedin.com/in/muhammed-sai̇t-bütün)
-* **E-posta:** `<e-posta-adresiniz@ornek.com>`
 
 ---
 
