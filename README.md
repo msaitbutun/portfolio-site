@@ -20,7 +20,7 @@ Projeyi yerelde çalıştırmak için:
 
 ```bash
 # Repository'yi klonla
-git clone https://github.com/<kullanıcı-adınız>/portfolio-site.git
+git clone https://github.com/msaitbutun/portfolio-site.git
 cd portfolio-site
 
 # Docker image oluştur
@@ -69,6 +69,3 @@ Her türlü soru ve iş birliği için bana ulaşabilirsiniz:
 
 ---
 
-```
-
-```
