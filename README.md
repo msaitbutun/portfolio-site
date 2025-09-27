@@ -71,6 +71,4 @@ Her türlü soru ve iş birliği için bana ulaşabilirsiniz:
 
 ```
 
-Bu haliyle hazır.  
-İstersen ben sana ek olarak **Jenkinsfile örneği** ya da **projenin ekran görüntüsü** bölümü de ekleyebilirim. Onları da README’ye koymak ister misin?
 ```
